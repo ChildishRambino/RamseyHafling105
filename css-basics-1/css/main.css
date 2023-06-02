@@ -1,0 +1,45 @@
+#div-1 {
+    border: 5px solid purple;
+}
+
+#div-1:hover {
+    background-color: aqua;
+}
+
+#div-2 {
+    border: 10px dashed forestgreen;
+    padding: 24px;
+    /* padding affects the space inside the border */
+}
+
+#div-3 {
+    border: 24px dotted crimson;
+    padding: 36px;
+    margin: 60px;
+    /*margin affects space outside of border */
+}
+
+#div-4 {
+    border: 2px solid  blue;
+    padding: 8px;
+    margin: 24px;
+    /* margins can overlap, padding cannot */
+}
+
+#div-5 {
+    background-color: #222222;
+    color: white;
+}
+
+#div-6 {
+    border: 6px solid orange;
+    padding-left: 48px;
+    margin: 50px 12px;
+}
+
+#div-7 {
+    border: 2px solid forestgreen;
+    padding: 20px 50px 40px 30px;
+    margin: 20px 50px 40px 30px;
+    /*margin an padding go top, right, bottom, left*/
+}
