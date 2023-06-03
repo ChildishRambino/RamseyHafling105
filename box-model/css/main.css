@@ -1,0 +1,30 @@
+#main {
+    background-color: aquamarine;
+    padding: 50px;
+    margin: 20px;
+}
+
+#content {
+    border: 5px dashed purple;
+    background-color: brown;
+    color: aliceblue;
+    padding: 25px 45px 25px 15px; 
+    margin: 25px 0px;
+}
+
+#content div {
+    margin-bottom: 12px;
+}
+
+#content #quote {
+    margin: 20px 0 20px 40px;
+    padding-left: 50px;
+}
+
+#content #quote div {
+    margin-bottom: 5px;  
+}
+
+#content #quote #quote_citation {
+    margin-left: 25px;
+}
