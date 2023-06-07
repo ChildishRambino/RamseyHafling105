@@ -1,0 +1,9 @@
+header {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px;
+}
+
+header p {
+    text-align: center;
+}
