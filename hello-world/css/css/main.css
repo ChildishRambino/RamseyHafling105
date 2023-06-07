@@ -7,3 +7,22 @@ header {
 header p {
     text-align: center;
 }
+
+section {
+    background-color: papayawhip;
+}
+
+section ul li {
+    display: inline;
+    text-align: center;
+    padding: 0 10px;
+}
+
+section ul li a {
+    color: purple;
+}
+
+h2 {
+    text-align: center;
+    background-color: palegoldenrod;
+}
