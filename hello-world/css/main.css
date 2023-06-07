@@ -1,29 +1,29 @@
-header {
+body header {
     background-color: rebeccapurple;
     color: white;
     padding: 10px;
 }
 
-header p {
+body header p {
     text-align: center;
 }
 
-section {
+body section {
     background-color: papayawhip;
     text-align: center;
 }
 
-section ul li {
+body section ul li {
     display: inline;
     text-align: center;
     padding: 0 10px;
 }
 
-section ul li a {
+body section ul li a {
     color: purple;
 }
 
-h2 {
+body h2 {
     text-align: center;
     background-color: palegoldenrod;
 }
