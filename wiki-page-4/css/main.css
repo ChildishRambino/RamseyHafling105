@@ -13,7 +13,12 @@ hr {
     margin-right: 30px;
 }
 
-#contents {
+#page {
+    position: sticky;
+    height: 100%;
+}
+
+header #contents {
     float: left;
     margin-left: 25px;
     border: 1px solid navy;
@@ -34,7 +39,7 @@ li {
 
 #section1, #section2, #section3, #section4, #section5, #natdev{
     margin-left: 200px;
-    margin-right: 100px;
+    margin-right: 10px;
 }
 
 p.bold {
@@ -48,21 +53,21 @@ p.bold {
 
 #moon1 {
     float: right;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     padding: 5px;
 }
 
 #volcano {
     float: right;
-    width: 200px;
-    height: 100px;
+    width: 375px;
+    height: 350px;
     padding: 5px;
 }
 
 #solar {
-    height: 150px;
-    width: 200px;
+    height: 350px;
+    width: 375px;
     float: left;
     padding: 5px;
 }
