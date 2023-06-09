@@ -43,22 +43,26 @@ p.bold {
 
 #scale {
     width: 650px;
+    padding: 5px;
 }
 
 #moon1 {
     float: right;
     height: 200px;
     width: 200px;
+    padding: 5px;
 }
 
 #volcano {
     float: right;
     width: 200px;
     height: 100px;
+    padding: 5px;
 }
 
 #solar {
     height: 150px;
     width: 200px;
     float: left;
+    padding: 5px;
 }
