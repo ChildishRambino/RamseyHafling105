@@ -21,11 +21,17 @@ hr {
     padding: 10px 15px;
 }
 
+header .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 li {
     padding: 5px;
 }
 
-#section1, #section2, #section3 {
+#section1, #section2, #section3, #section4, #section5, #natdev{
     margin-left: 200px;
     margin-right: 100px;
 }
@@ -42,4 +48,16 @@ p.bold {
     float: right;
     height: 200px;
     width: 200px;
+}
+
+#volcano {
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+#solar {
+    height: 200px;
+    width: 300px;
+    float: left;
 }
