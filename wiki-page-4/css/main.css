@@ -51,6 +51,12 @@ p.bold {
     padding: 5px;
 }
 
+p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+
 #moon1 {
     float: right;
     height: 300px;
