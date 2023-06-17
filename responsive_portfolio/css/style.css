@@ -1,5 +1,5 @@
 /* Google Font API imports - found at https://fonts.google.com/ */
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 /*****************************************************************************
   Heading, Link, and Misc. Styles
@@ -16,7 +16,7 @@ h1,
 h2,
 h3,
 a {
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
 h4,
@@ -41,7 +41,8 @@ a {
 nav,
 nav a,
 footer a {
-    color: indigo;
+    color: goldenrod;
+    padding: 5px
 }
 
 nav a:hover,
@@ -65,10 +66,12 @@ footer a:hover {
     ". gallery_area ."
     ". two_cards_area ."
     "footer_area footer_area footer_area";
+    padding: 5px;
 }
 
 section {
     border: 4px solid indigo;
+    height: 45px;
 }
 
 nav {
@@ -98,6 +101,7 @@ nav {
 footer {
     grid-area: footer_area;
 }
+
 
 /****************************************************************************
   Nav/Footer styles
@@ -140,7 +144,7 @@ nav .social_media {
 nav,
 nav a,
 footer a {
-    color: indigo;
+    color: goldenrod;
 }
 
 nav a:hover,
@@ -176,5 +180,19 @@ footer ul {
   Media Query - Mobile Breakpoint
 ****************************************************************************/
 @media screen and (max-width: 800px) {
+    #site_grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "nav_area"
+        "hero_area"
+        "three_cards_area"
+        "carousel_area"
+        "gallery_area"
+        "two_cards_area"
+        "footer_area";
+    }
 
+    nav {
+        flex-direction: column;
+    }
 }
