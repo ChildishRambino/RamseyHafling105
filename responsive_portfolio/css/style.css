@@ -1,5 +1,5 @@
 /* Google Font API imports - found at https://fonts.google.com/ */
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Secular+One&display=swap');
 
 /*****************************************************************************
   Heading, Link, and Misc. Styles
@@ -16,7 +16,7 @@ h1,
 h2,
 h3,
 a {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Secular One', sans-serif;
 }
 
 h4,
@@ -31,7 +31,6 @@ h1 {
 
 h4 {
     font-size: 18px;
-    margin-top: 4px;
 }
 
 a {
@@ -42,7 +41,6 @@ nav,
 nav a,
 footer a {
     color: goldenrod;
-    padding: 5px
 }
 
 nav a:hover,
@@ -66,12 +64,10 @@ footer a:hover {
     ". gallery_area ."
     ". two_cards_area ."
     "footer_area footer_area footer_area";
-    padding: 5px;
 }
 
 section {
-    border: 4px solid indigo;
-    height: 45px;
+    border: 4px solid goldenrod;
 }
 
 nav {
@@ -167,10 +163,67 @@ footer ul {
 /****************************************************************************
   Hero styles
 ****************************************************************************/
+#hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../images/abstractBackground.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
+#hero h1, #hero h4 {
+    color: white;
+    transition: 0.5s;
+}
+
+#hero h1:hover {
+    color: goldenrod;
+}
+
+#hero a, .card a {
+    background-color: white;
+    color: indigo;
+    border: 2px solid indigo;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 12px;
+    min-width: 150px;
+    transition: transform 0.5s;
+}
+
+#hero a:hover, .card a:hover {
+    transform: scale(1.1);
+    background-color: goldenrod;
+}
 /****************************************************************************
   Card styles
 ****************************************************************************/
+#three_cards, #two_cards {
+    display: flex;
+}
+
+.card {
+    border: 2px solid indigo;
+    color: indigo;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0px grey;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.class p {
+    font-size: 18px;
+    flex: 1;
+    margin-top: 0;
+}
 
 /****************************************************************************
   Gallery styles
@@ -195,4 +248,14 @@ footer ul {
     nav {
         flex-direction: column;
     }
+
+    #three_cards, #two_cards {
+        flex-direction: column;
+}
+
+.card {
+    align-items: center;
+    margin: 36px 24px 0;
+}
+
 }
