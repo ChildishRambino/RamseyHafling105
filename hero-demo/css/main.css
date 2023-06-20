@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+}
+
+#hero_1 {
+    background-image: url("../images/background1.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 1000px;
+}
+
+#hero_1 h1 {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    left: 125px;
+    top: 50px;
+    transition: transform 0.5s;
+}
+
+#hero_1 h1:hover {
+    transform: scale(1.5);
+}
+
+#hero_2 {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+    background-position: center  center;
+    height: 80vh;
+    margin-bottom: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero_2 h2, #hero_2 h3 {
+    color: white;
+    transition: transform 0.5s;
+    text-shadow: 2px 3px 1px whitesmoke;
+}
+
+#hero_2 h2:hover, #hero_2 h3:hover {
+    transform: scale(1.2);
+}
+
+#hero_3 {
+    background-image: url("../images/background3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    margin-bottom: 1000px;
+}
+
+#hero_3 h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: lavender;
+    padding-top: 60px;
+}
+
+#hero_3 h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    padding-bottom: 60PX;
+    color: lavender;
+}
