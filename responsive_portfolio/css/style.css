@@ -70,10 +70,6 @@ footer a:hover {
     "footer_area footer_area footer_area";
 }
 
-section {
-    border: 4px solid goldenrod;
-}
-
 nav {
     grid-area: nav_area;
 }
@@ -291,6 +287,16 @@ footer ul {
 }
 
 #gallery_5 img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#gallery_6 {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+#gallery_6 img {
     width: 100%;
     margin-bottom: 24px;
 }
