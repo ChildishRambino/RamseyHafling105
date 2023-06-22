@@ -173,7 +173,7 @@ footer ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/coffee_S1.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -320,7 +320,7 @@ footer ul {
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1500px) {
     #site_grid {
         grid-template-columns: 1fr;
         grid-template-areas:
