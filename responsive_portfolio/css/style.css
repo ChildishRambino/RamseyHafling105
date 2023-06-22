@@ -234,13 +234,13 @@ footer ul {
   Gallery styles
 ****************************************************************************/
 #carousel_container {
-    height: 450px;
+    height: 700px;
     margin: 20px;
 }
 
 #carousel-images img{
-    height: 420px;
-    object-fit: cover;
+    object-fit: fill;
+    height: 700px;
 }
 
 #gallery_container {
