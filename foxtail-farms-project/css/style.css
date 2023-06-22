@@ -371,3 +371,55 @@ footer ul {
     columns: 2 auto;
 }
 }
+
+@media screen and (min-width: 768px) {
+    #site_grid {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "nav_area"
+        "hero_area"
+        "three_cards_area"
+        "carousel_area"
+        "gallery_area"
+        "two_cards_area"
+        "footer_area";
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    #three_cards, #two_cards {
+        flex-direction: column;
+}
+
+.card {
+    align-items: center;
+    margin: 36px 24px 0;
+}
+
+#gallery_1, #gallery_2 {
+    grid-template-columns: 1fr;
+}
+
+#gallery_2 img {
+    width: 100%;
+    height: auto;
+}
+
+#gallery_4 {
+    max-height: 1900px;
+}
+
+#gallery_4 img {
+    width: 45%;
+}
+
+#gallery_5 {
+    columns: 2 auto;
+}
+
+#gallery_6 {
+    columns: 2 auto;
+}
+}
