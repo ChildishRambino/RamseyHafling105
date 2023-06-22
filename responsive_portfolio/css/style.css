@@ -233,6 +233,16 @@ footer ul {
 /****************************************************************************
   Gallery styles
 ****************************************************************************/
+#carousel_container {
+    height: 450px;
+    margin: 20px;
+}
+
+#carousel-images img{
+    height: 420px;
+    object-fit: cover;
+}
+
 #gallery_container {
     text-align: center;
 }
