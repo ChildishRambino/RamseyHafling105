@@ -3,16 +3,17 @@ fieldset {
 }
 
 .text_input label {
-    font-family: sans-serif;
+    font-family: serif;
+    font-size: 25px;
 }
 
 .text_input input {
     /* 3 value margin represent:
     top, left/right, bottom */
     margin: 4px 0 16px;
-    padding: 12px;
+    padding: 2px;
     font-size: 18px;
-    font-family: Verdana, sans-serif;
+    font-family: serif;
     width: 300px;
 }
 
