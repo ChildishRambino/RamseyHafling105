@@ -1,0 +1,60 @@
+body {
+    background-color: #eeeeee;
+    font-family: sans-serif;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-areas: 
+    ". header ."
+    ". form .";
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: form;
+}
+
+#services_id {
+    width: 510px;
+    height: 40px;
+    margin: 10px 0;
+}
+
+input[type=text] {
+    width: 500px;
+    height: 40px;
+    margin: 10px 0;
+}
+
+input[type=email] {
+    width: 500px;
+    height: 40px;
+    margin: 10px 0;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    margin: 10px 0;
+}
+
+input[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
