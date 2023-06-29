@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Facebook | Sign up</title>
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <img src="images/fb_logo.svg" alt="logo">
+            <fieldset>
+                <form>
+                    <h1>Create a new account</h1>
+                    <h4>It's quick and easy.</h4>
+                    <hr>
+                    <div>
+                        <input type="text" id="first_id" name="firstName" required placeholder="First Name">
+                        <input type="text" id="last_id" name="lastName" required placeholder="Last Name">
+                    </div>
+                    <div>
+                        <input type="text" id="number_id" name="phone" required placeholder="Phone number or Email">
+                    </div>
+                    <div>
+                        <input type="text" id="password_id" name="password" required placeholder="New Password">
+                    </div>
+                    <div>
+                        <label for="services_id">Birthday</label>
+                        <br>
+                        <select id="services_id" name="service_selection">
+                            <option id="default_option" value="none" disabled selected>Month</option>
+                            <option value="january">January</option>
+                            <option value="february">February</option>
+                            <option value="march">March</option>
+                        </select>
+                        <select id="services_id" name="service_selection">
+                            <option id="default_option" value="none" disabled selected>Date</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <select id="services_id" name="service_selection">
+                            <option id="default_option" value="none" disabled selected>Year</option>
+                            <option value="gardening">1999</option>
+                            <option value="coding">1998</option>
+                            <option value="web dev">1997</option>
+                        </select>
+                    </div>
+                    <div id="radio">
+                        <label for="gender_id">Gender</label>
+                        <br>
+                        <div>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male_radio" name="program" value="male" required>
+                        </div>
+                        <div>
+                        <label for="female">Female</label>
+                        <input type="radio" id="female_radio" name="program" value="female" required>
+                        </div>
+                        <div>
+                        <label for="custom">Custom</label>
+                        <input type="radio" id="custom_radio" name="program" value="custom" required>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quibusdam porro, soluta provident quasi facilis accusantium! Minima natus accusamus sequi eum amet.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos deleniti sint, laborum molestiae facilis debitis quam hic officiis asperiores?</p>
+                    <div>
+                        <input type="submit" value="Sign Up">
+                    </div>
+                    <a href="#">Already have an account?</a>
+                </form>
+            </fieldset>
+        </main>
+    </body>
+</html>

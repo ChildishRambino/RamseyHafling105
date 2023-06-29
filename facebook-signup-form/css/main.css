@@ -1,0 +1,96 @@
+main {
+    background-color: lightgray;
+    padding-bottom: 100px;
+}
+img {
+    width: 50%;
+    margin-left: 215px;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin: 5px 75px;
+    font-size: 25px;
+}
+h4 {
+    font-family: sans-serif;
+    margin: 5px 135px;
+    font-weight: 200;
+}
+
+fieldset {
+    width: 50%;
+    margin: 0 25%;
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px gray;
+    height: 500px;
+}
+
+input[type=text] {
+    margin: 5px;
+    height: 30px;
+    
+}
+
+label[for=male], label[for=female], label[for=custom] {
+    font-size: 20px;
+}
+
+#services_id {
+    font-size: 15px;
+    height: 40px;
+    width: 123px;
+    margin-left: 8px;
+}
+
+#first_id{
+    width: 180px;
+    margin-left: 10px;
+}
+
+#last_id {
+    width: 180px;
+}
+
+#number_id {
+    margin-left: 10px;
+    width: 382px;
+}
+
+#password_id {
+    margin-left: 10px;
+    width: 382px
+}
+
+label {
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 8px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 10px;
+    color: gray;
+    padding-left: 5px;
+}
+
+input[type=submit] {
+    margin-left: 125px;
+    background-color: green;
+    color: white;
+    font-family: sans-serif;
+    width: 150px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+a {
+    margin-left: 110px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
