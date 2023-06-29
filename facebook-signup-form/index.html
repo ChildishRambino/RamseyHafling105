@@ -12,6 +12,7 @@
             <img src="images/fb_logo.svg" alt="logo">
             <fieldset>
                 <form>
+                    <br>
                     <h1>Create a new account</h1>
                     <h4>It's quick and easy.</h4>
                     <hr>
@@ -47,27 +48,30 @@
                             <option value="web dev">1997</option>
                         </select>
                     </div>
-                    <div id="radio">
-                        <label for="gender_id">Gender</label>
+                    <label for="gender_id">Gender</label>
                         <br>
-                        <div>
-                        <label for="male">Male</label>
-                        <input type="radio" id="male_radio" name="program" value="male" required>
+                    <div id="radio">
+                        <div id="radio_id">
+                        <label for="male">Male  <input type="radio" id="male_radio" name="program" value="male" required></label>
                         </div>
-                        <div>
-                        <label for="female">Female</label>
-                        <input type="radio" id="female_radio" name="program" value="female" required>
+                        <div id="radio_id">
+                        <label for="female">Female <input type="radio" id="female_radio" name="program" value="female" required></label>
                         </div>
-                        <div>
-                        <label for="custom">Custom</label>
-                        <input type="radio" id="custom_radio" name="program" value="custom" required>
+                        <div id="radio_id">
+                        <label for="custom">Custom <input type="radio" id="custom_radio" name="program" value="custom" required></label>
                         </div>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quibusdam porro, soluta provident quasi facilis accusantium! Minima natus accusamus sequi eum amet.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos deleniti sint, laborum molestiae facilis debitis quam hic officiis asperiores?</p>
+                    <p>People who use our services may have uploaded ypur contact information to Facebook. <span>Learn more.</span></p>
+                    <p>By clicking Sign up, you agree to our 
+                        <span>Terms</span>,
+                        <span>Privacy Policy</span> and
+                        <span>Cookies Policy</span>.
+                        You may recieve SMS Notifications from us and can opt out at any time.
+                    </p>
                     <div>
                         <input type="submit" value="Sign Up">
                     </div>
+                    <br>
                     <a href="#">Already have an account?</a>
                 </form>
             </fieldset>

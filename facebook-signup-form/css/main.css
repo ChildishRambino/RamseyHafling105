@@ -18,14 +18,19 @@ h4 {
     font-weight: 200;
 }
 
+hr {
+    width: 100%;
+}
+
 fieldset {
     width: 50%;
     margin: 0 25%;
     border: 1px solid grey;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 2px 2px gray;
-    height: 500px;
+    height: 525px;
+    padding: 0;
 }
 
 input[type=text] {
@@ -34,8 +39,13 @@ input[type=text] {
     
 }
 
-label[for=male], label[for=female], label[for=custom] {
-    font-size: 20px;
+label[for=male], label[for=female], label[for=custom]{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+input[type=radio] {
+    float: right;
 }
 
 #services_id {
@@ -43,6 +53,7 @@ label[for=male], label[for=female], label[for=custom] {
     height: 40px;
     width: 123px;
     margin-left: 8px;
+    border-radius: 5px;
 }
 
 #first_id{
@@ -64,7 +75,7 @@ label[for=male], label[for=female], label[for=custom] {
     width: 382px
 }
 
-label {
+label[for=gender_id], label[for=services_id] {
     font-size: 12px;
     font-family: sans-serif;
     margin-left: 8px;
@@ -85,7 +96,7 @@ input[type=submit] {
     width: 150px;
     height: 30px;
     border: 1px solid whitesmoke;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: 600;
 }
 
@@ -93,4 +104,21 @@ a {
     margin-left: 110px;
     text-decoration: none;
     font-family: sans-serif;
+}
+
+#radio {
+    display: flex;
+    align-items: center;
+}
+
+#radio_id {
+    border: 1px solid gray;
+    padding: 10px;
+    margin-left: 8px;
+    width: 104px;
+    border-radius: 5px;
+}
+
+span {
+    color: blue;
 }
