@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    font-family: sans-serif;
+    font-weight: 200;
+    float: right;
+    padding: 5px;
+}
+
+main {
+    height: 670px;
+    background-image: url(../images/hulu-bg.jpeg);
+    object-fit:contain;
+}
+
+#logo {
+    height: 30px;
+}
+
+h5 {
+    font-family: sans-serif;
+    color: #3dbb3d;
+    padding: 10px;
+    
+}
+
+#promo {
+    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: white;
+}
+
+#both {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#b1{
+    width: 600px;
+    height: 50px;
+    background-color: #3dbb3d;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+#img2 { 
+    width: 500px;
+    padding: 15px;
+}
+
+#banner {
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+
+}
+
+#terms {
+    text-decoration: underline;
+    color: white;
+}
+
+#b2{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+body {
+    background-color: black;
+}
+
